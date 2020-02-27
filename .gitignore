@@ -1,19 +1,104 @@
+<html>
+<head>
+<title>Automation Testing</title>
+</head>
 
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<body>
+<h1>Welcome To Automation</h1>
+<p> Learn Selenium </p>
+<p>&nbsp;Learn Appium&nbsp;</p>
+<p>Learn WebServices&nbsp;</p>
 
-# Other files and folders
-.settings/
+<div>
+<label>Username:</label>
+<input type="text" placeholder="enter username" maxlength="9" value="" id="user" name="username"/>
+</div>
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+<div>
+<label>Password:</label>
+<input type="password" placeholder="enter password" maxlength="9" value="" name="pwd"/>
+</div>
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+<div>
+<input type="checkbox" class="MyCheckbox"/>
+<input type="button" value="LOGIN"/>
+</div>
+
+<div>
+Male:<input type="radio" name="rd" id="male"/>
+Female:<input type="radio" name="rd" id="female"/>
+</div>
+
+<div>
+<a href="https://www.facebook.com">Facebook</a>
+<img src="DSCN0558.jpg" width="150" height="100"/>
+</div>
+</div>
+<a href="https://www.google.com">google</a>
+
+</div>
+
+<select name="Language">
+<option value="1">Select Lang</option>
+<option value="2">Hindi</option>
+<option value="3">Urdu</option>
+<option value="4">Methli</option>
+<option value="5">Bihari</option>
+<option value="6">Java</option>
+</select>
+
+<select name="Festival" multiple>
+<option value="1">Holi</option>
+<option value="2">Diwali</option>
+<option value="3">Bihu</option>
+<option value="4">Christmas</option>
+<option value="5">Budh Purnima</option>
+<option value="6">Pongal</option>
+</select>
+
+<table name="Course" border="b">
+<tbody>
+<tr>
+<td>Selenium</td>
+<td>
+<input type="checkbox"/>
+</td>
+</tr>
+
+<tr>
+<td>Appium</td>
+<td>
+<input type="checkbox"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table name="Num" border="b">
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+</body>
+</html>
